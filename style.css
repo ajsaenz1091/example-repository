@@ -1,0 +1,17 @@
+
+@keyframes bodymation {
+    from {background-color: green;}
+    to {background-color: yellow;}
+  }
+body {
+    display: flex;
+    justify-content: center;
+    background: blue;
+    animation-name: bodymation;
+    animation-duration: 4s;
+}
+ h1 {
+    padding: 200px 0;
+     text-align: center;
+     font-size: 200px;
+ }
