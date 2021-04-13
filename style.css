@@ -4,6 +4,7 @@
     to {background-color: yellow;}
   }
 body {
+    position: relative;
     display: flex;
     justify-content: center;
     background: blue;
@@ -11,7 +12,8 @@ body {
     animation-duration: 4s;
 }
  h1 {
+    position: absolute;
     padding: 200px 0;
-     text-align: center;
-     font-size: 200px;
+    text-align: center;
+    font-size: 200px;
  }
